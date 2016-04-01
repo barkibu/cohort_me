@@ -72,7 +72,7 @@ module CohortMe
 
       table[r[0]][:count] = periods
       table[r[0]][:unique] = r[1].map {|c| c.send(activity_user_id) }.uniq.count
-      table[r[0]][:data] = r[1]
+      #table[r[0]][:data] = r[1]
     end
 
     table
